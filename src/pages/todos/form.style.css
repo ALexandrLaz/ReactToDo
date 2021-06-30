@@ -1,0 +1,10 @@
+.modalWindow {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formPost {
+  min-width: 80%;
+  margin: 10% 0;
+}

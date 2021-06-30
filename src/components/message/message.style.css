@@ -1,0 +1,27 @@
+.success {
+  background: green;
+  color: #fff;
+  padding: 10px;
+}
+.error {
+  background: red;
+  color: #fff;
+  padding: 10px;
+}
+.alertMessage {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@keyframes alertMessage {
+  from {
+    transform: translate(30px);
+  }
+  to {
+    transform: translate(0px, 0);
+    border-color: #ee4d68;
+  }
+}
+.alertMessage {
+  animation: alertMessage 1.5s ease;
+}

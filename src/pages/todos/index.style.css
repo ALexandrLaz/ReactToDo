@@ -1,0 +1,12 @@
+.className {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.closeModal {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  border-radius: 50%;
+  background-color: chocolate;
+}
